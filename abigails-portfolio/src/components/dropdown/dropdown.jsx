@@ -12,7 +12,7 @@ export default function Dropdown({ menuOpen, setMenuOpen }) {
                 <a href="#portfolio">About Me</a>
             </li>
             <li onClick={() => setMenuOpen(false)}>
-                <a href="#work">Projects</a>
+                <a href="#works">Projects</a>
             </li>
             <li onClick={() => setMenuOpen(false)}>
                 <a href="#contact">Contact</a>
