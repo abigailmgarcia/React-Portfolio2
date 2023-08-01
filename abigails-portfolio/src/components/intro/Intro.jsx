@@ -3,6 +3,6 @@ import "./intro.scss"
 
 export default function intro() {
   return (
-    <div className='intro'>intro</div>
+    <div className='intro'></div>
   )
 }
