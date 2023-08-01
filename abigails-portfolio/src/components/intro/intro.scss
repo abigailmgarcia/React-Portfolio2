@@ -41,6 +41,11 @@
             }
             h3{
                 font-size: 25px;
+
+                span{
+                    font-size: 30px;
+                    color: seagreen;
+                }
             }
         }
         a{
@@ -48,7 +53,7 @@
             bottom: 15px;
             width: 90px;
             left: 40%;
-            animation: arrowBlink 3s infinite;
+            animation: arrowBlink 2.5s infinite;
         }
         @keyframes arrowBlink {
             100%{

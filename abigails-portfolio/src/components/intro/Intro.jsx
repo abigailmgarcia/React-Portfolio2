@@ -1,7 +1,11 @@
 import React from 'react'
 import "./intro.scss"
+import { init } from 'ityped'
 import {AiOutlineArrowDown} from "react-icons/ai"
+
+
 export default function intro() {
+
   return (
     <div className='intro' id="intro">
       <div className="left">
@@ -14,7 +18,7 @@ export default function intro() {
         <div className="wrapper">
           <h2>Hello Everyone, I am</h2>
           <h1>Abigail Garcia</h1>
-          <h3>A Full-Stack Web Developer <span></span></h3>
+          <h3> A <span> Full stack web deb</span></h3>
         </div>
         <a href="#portfolio">
           <AiOutlineArrowDown />
