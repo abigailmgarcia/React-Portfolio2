@@ -6,5 +6,5 @@ export default function WorkList({id, title , active, setSelected }) {
     <li className= {active ? "workList active" : "workList"} onClick={() => setSelected(id)}>
         {title}
     </li>
-  )
+  );
 }

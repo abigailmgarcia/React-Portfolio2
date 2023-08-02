@@ -1,11 +1,17 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import './works.scss'
 import WorkList from '../workList/worklist';
+import {
+  featuredPortfolio,
+  webPortfolio,
+  mobilePortfolio,
+  contentPortfolio,
+} from "../data"
 
 export default function Works() {
 
   const [selected, setSelected ] = useState("featured");
-
+  const [data, setData] = useState([]);
     const list = [
      {
       id: "featured",
@@ -18,12 +24,22 @@ export default function Works() {
      {
       id: "mobile",
       title: "Mobile App",
-     },
-     {
-      id: "content",
-      title: "Content",
      }
     ];
+
+    useEffect(() => {
+      switch (selected){
+        case "featured":
+          setData(featuredPortfolio);
+          break;
+        case "web":
+          setData(webPortfolio);
+          break;
+        case "mobile":
+          setData(mobilePortfolio);
+          break;
+      }
+    }, [selected]);
 
   return (
     <div className='works' id="works">
@@ -33,28 +49,36 @@ export default function Works() {
           < WorkList title={item.title} active = {selected === item.id} setSelected={setSelected} id={item.id}/>
         ))}
       </ul>
-      <div className="container">
+      {/* <div className="container">
         <div className='item'>
-        <img src="./assets/shortstack.png" alt="" />
+          <img src="./assets/shortstack.png" alt="" />
         <h3>ShortStack</h3>
       </div>
       <div className="item">
         <img src="./assets/shortstack.png" alt="" />
-        <h3>ShortStack</h3>
+        <h3></h3>
       </div>
       <div className="item">
         <img src="./assets/shortstack.png" alt="" />
-        <h3>ShortStack</h3>
+        <h3></h3>
       </div>
       <div className="item">
         <img src="./assets/shortstack.png" alt="" />
-        <h3>ShortStack</h3>
+        <h3></h3>
       </div>
       <div className="item">
         <img src="./assets/shortstack.png" alt="" />
-        <h3>ShortStack</h3>
+        <h3></h3>
       </div>
+      </div> */}
+      <div className='container'>
+        {data.map((d) => (
+          <div className='item'>
+            <img src={d.img} alt=""/>
+            <h3>{d.title}</h3>
+            </div>
+        ))}
       </div>
     </div>
-  )
+  );
 }
