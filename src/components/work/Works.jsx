@@ -46,7 +46,7 @@ export default function Works() {
     }, [selected]);
 
   return (
-    <div className='works' id="works">z 
+    <div className='works' id="works">
       <h1>Portfolio</h1>
       <ul>
         {list.map((item) => (
