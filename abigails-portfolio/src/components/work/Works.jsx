@@ -5,7 +5,6 @@ import {
   featuredPortfolio,
   webPortfolio,
   mobilePortfolio,
-  contentPortfolio,
 } from "../data"
 
 export default function Works() {
@@ -49,28 +48,6 @@ export default function Works() {
           < WorkList title={item.title} active = {selected === item.id} setSelected={setSelected} id={item.id}/>
         ))}
       </ul>
-      {/* <div className="container">
-        <div className='item'>
-          <img src="./assets/shortstack.png" alt="" />
-        <h3>ShortStack</h3>
-      </div>
-      <div className="item">
-        <img src="./assets/shortstack.png" alt="" />
-        <h3></h3>
-      </div>
-      <div className="item">
-        <img src="./assets/shortstack.png" alt="" />
-        <h3></h3>
-      </div>
-      <div className="item">
-        <img src="./assets/shortstack.png" alt="" />
-        <h3></h3>
-      </div>
-      <div className="item">
-        <img src="./assets/shortstack.png" alt="" />
-        <h3></h3>
-      </div>
-      </div> */}
       <div className='container'>
         {data.map((d) => (
           <div className='item'>
