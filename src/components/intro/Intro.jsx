@@ -1,6 +1,7 @@
 import React from 'react'
 import "./intro.scss"
 import {AiOutlineArrowDown} from "react-icons/ai"
+import PortfolioImage from '../../assets/IMG_6226.jpg';
 
 
 export default function intro() {
@@ -9,7 +10,7 @@ export default function intro() {
     <div className='intro' id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="public/assets/IMG_6226.jpg" alt="" />
+         <img src= {PortfolioImage} alt="" />
         </div>
       </div>
   

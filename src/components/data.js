@@ -2,7 +2,7 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "Social Media App",
-      img:"/assets/shortstack.png",
+      img:"../assets/shortstack.png",
       link:"https://shortstack.vercel.app/"
     },
     {
