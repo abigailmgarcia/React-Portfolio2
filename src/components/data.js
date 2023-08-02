@@ -1,26 +1,26 @@
 export const featuredPortfolio = [
     {
       id: 1,
-      title: "Social Media App",
-      img:"../assets/shortstack.png",
+      title: "ShortStack",
+      img:"assets/shortstack.png",
       link:"https://shortstack.vercel.app/"
     },
     {
       id: 2,
       title: "Mr.Movie",
-      img:"/assets/mrmovie.png",
+      img:"assets/mrmovie.png",
       link: "https://jstanion.github.io/amazing-project-1/",
     },
     {
       id: 3,
       title: "Coding Quiz",
-      img:"/assets/codingquiz.png",
+      img:"assets/codequiz.png",
       link: "https://abigailmgarcia.github.io/Coding-Quiz/",
     },
     {
       id: 4,
       title: "Workout App",
-      img:"/assets/workout.png",
+      img:"assets/workoutpage.png",
       link:""
     },
     {
@@ -47,19 +47,19 @@ export const featuredPortfolio = [
     {
       id: 2,
       title: "Mr.Movie",
-      img:"/assets/mrmovie.png",
+      img:"assets/mrmovie.png",
       link: "https://jstanion.github.io/amazing-project-1/",
     },
     {
       id: 3,
       title: "Coding Quiz",
-      img:"/assets/codingquiz.png",
+      img:"assets/codequiz.png",
       link: "https://abigailmgarcia.github.io/Coding-Quiz/",
     },
     {
       id: 4,
       title: "Workout App",
-      img:"/assets/workout.png",
+      img:"assets/workoutpage.png",
       link:""
     },
     {
