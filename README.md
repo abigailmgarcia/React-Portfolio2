@@ -23,7 +23,7 @@ N/A
 
 To use this page you will be first directed to the homepage where you see a navbar, current picture, and my role. Underneath that is a small arrow button you can use to scroll down to the next page or the hamburger menu on the side will allow you to navigate to different sections of the page! If you ever want to go back to the home page just click the "Profile" in the top left corner and it will take you back there!
 
-Deployed Application: 
+Deployed Application: https://abigailmgarcia.github.io/React-Portfolio2/#works
 
 ![alt text](./src/assets/portfolio.png)
 
