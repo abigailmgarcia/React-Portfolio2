@@ -1,15 +1,35 @@
 import React from 'react'
 import './works.scss'
+import WorkList from '../workList/worklist';
 
 export default function Works() {
+
+    const list = [
+     {
+      id: "featured",
+      title: "Featured",
+     },
+     {
+      id: "web",
+      title: "Web App",
+     },
+     {
+      id: "mobile",
+      title: "Mobile App",
+     },
+     {
+      id: "content",
+      title: "Content",
+     }
+    ];
+
   return (
     <div className='works' id="works">
       <h1>Portfolio</h1>
       <ul>
-        <li className='active'>Short Stack</li>
-        <li>Web</li>
-        <li>Mobile App</li>
-        <li>design</li>
+        {list.map((item) => (
+          < WorkList title={item.title} />
+        ))}
       </ul>
       <div className="container">
         <div className='item'>

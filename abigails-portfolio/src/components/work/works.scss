@@ -51,6 +51,8 @@
         justify-content: center;
         color: white;
         position: relative;
+        transition: all 0.5s ease;
+        cursor: pointer;
 
         h3{
             position: absolute;
@@ -67,7 +69,7 @@
         &:hover{
             background-color: $mainColor;
             img{
-                opacity: 0.3;
+                opacity: 0.2;
                 z-index: 0;
             }
         }
