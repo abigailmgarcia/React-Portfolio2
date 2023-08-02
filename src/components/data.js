@@ -1,38 +1,46 @@
+import shortStack from "../assets/shortstack.png";
+import workoutImg from "../assets/workoutpage.png";
+import mrMovie from "../assets/mrmovie.png";
+import cssPort from "../assets/cssportfolio.png";
+import noteTaker from "../assets/notetaker.png";
+import codeQuiz from "../assets/codequiz.png";
+
+
 export const featuredPortfolio = [
     {
       id: 1,
       title: "ShortStack",
-      img:"assets/shortstack.png",
+      img: [ shortStack ],
       link:"https://shortstack.vercel.app/"
     },
     {
       id: 2,
       title: "Mr.Movie",
-      img:"assets/mrmovie.png",
+      img: [ mrMovie ],
       link: "https://jstanion.github.io/amazing-project-1/",
     },
     {
       id: 3,
       title: "Coding Quiz",
-      img:"assets/codequiz.png",
+      img: [codeQuiz],
       link: "https://abigailmgarcia.github.io/Coding-Quiz/",
     },
     {
       id: 4,
       title: "Workout App",
-      img:"assets/workoutpage.png",
+      img: [ workoutImg ],
       link:""
     },
     {
       id: 5,
       title: "Note Taker",
-      img: "assets/notetaker.png",
+      img:  [ noteTaker ],
       link: "https://expressnotes-abigailmg-428e4a932b10.herokuapp.com/"
     },
     {
       id: 6,
-      title: "CSS portfolio",
-      img: "assets/cssportfolio.png",
+      title: "Css project",
+      img: [ cssPort ],
       link: "https://abigailmgarcia.github.io/Advanced-CSS-Portfolio/"
     }
   ];
@@ -41,37 +49,37 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "ShortStack",
-      img: "assets/shortstack.png",
+      img: [ shortStack ],
       link:"https://shortstack.vercel.app/"
     },
     {
       id: 2,
       title: "Mr.Movie",
-      img:"assets/mrmovie.png",
+      img: [mrMovie],
       link: "https://jstanion.github.io/amazing-project-1/",
     },
     {
       id: 3,
       title: "Coding Quiz",
-      img:"assets/codequiz.png",
+      img: [codeQuiz],
       link: "https://abigailmgarcia.github.io/Coding-Quiz/",
     },
     {
       id: 4,
       title: "Workout App",
-      img:"assets/workoutpage.png",
+      img: [workoutImg],
       link:""
     },
     {
       id: 5,
       title: "Note Taker",
-      img: "assets/notetaker.png",
+      img: [noteTaker],
       link: "https://expressnotes-abigailmg-428e4a932b10.herokuapp.com/"
     },
     {
       id: 6,
       title: "CSS portfolio",
-      img: "assets/cssportfolio.png",
+      img: [cssPort],
       link: "https://abigailmgarcia.github.io/Advanced-CSS-Portfolio/"
     }
   ];
@@ -80,7 +88,7 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "ShortStack",
-      img: "assets/shortstack.png",
+      img: [shortStack],
       link:"https://shortstack.vercel.app/"
     },
   ];

@@ -7,6 +7,7 @@ import {
   webPortfolio,
   mobilePortfolio,
 } from "../data"
+import workoutImage from '../../assets/workoutpage.png'
 
 export default function Works() {
 
@@ -45,7 +46,7 @@ export default function Works() {
     }, [selected]);
 
   return (
-    <div className='works' id="works">
+    <div className='works' id="works">z 
       <h1>Portfolio</h1>
       <ul>
         {list.map((item) => (
