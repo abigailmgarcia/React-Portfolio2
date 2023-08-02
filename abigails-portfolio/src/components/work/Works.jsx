@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import './works.scss'
 import WorkList from '../workList/worklist';
+import { AiOutlineArrowDown } from "react-icons/ai";
 import {
   featuredPortfolio,
   webPortfolio,
@@ -55,6 +56,9 @@ export default function Works() {
             <h3>{d.title}</h3>
             </div>
         ))}
+                <a href="#contact">
+          <AiOutlineArrowDown />
+          </a>
       </div>
     </div>
   );

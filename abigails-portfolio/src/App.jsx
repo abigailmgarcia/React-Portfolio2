@@ -3,7 +3,6 @@ import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/work/Works";
 import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
 import Dropdown from "./components/dropdown/dropdown";
 import "./App.scss";
 import {useState} from "react";
@@ -20,7 +19,6 @@ function App() {
         < Portfolio />
         < Works />
         < Contact />
-        < Footer />
       </div>
     </div>
   );
