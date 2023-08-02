@@ -1,6 +1,5 @@
 import React from 'react'
 import "./intro.scss"
-import { init } from 'ityped'
 import {AiOutlineArrowDown} from "react-icons/ai"
 
 

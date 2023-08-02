@@ -38,6 +38,9 @@ export default function Works() {
         case "mobile":
           setData(mobilePortfolio);
           break;
+          default:
+            setData(featuredPortfolio);
+            break;
       }
     }, [selected]);
 
@@ -52,8 +55,12 @@ export default function Works() {
       <div className='container'>
         {data.map((d) => (
           <div className='item'>
-            <img src={d.img} alt=""/>
-            <h3>{d.title}</h3>
+            <a href={d.link} target='_blank' rel='noopener noreferrer'>  
+            <div className='item-image' >
+              <img src={d.img} alt=""/>
+            </div>
+             <h3>{d.title}</h3>
+             </a>
             </div>
         ))}
                 <a href="#contact">

@@ -10,7 +10,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
     <div className={'navbar ' + (menuOpen && "active")}>
       <div className='wrapper'>
           <div className="left">
-            <a href="#intro" className='logo'>hello</a>
+            <a href="#intro" className='logo'>Portfolio</a>
             <div className="itemcontainer">
               <a href="https://github.com/abigailmgarcia" className='icon'>
               <BsGithub className='icon'/>
@@ -20,7 +20,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             <a href="mailto:abigailmg31@gmail.com" className='icon'>
               < IoMdMail className='icon' />
               </a>
-              <span> email me </span>
+              <span></span>
             </div>
             <div className="itemcontainer">
               <a href="https://twitter.com/_abigailgarcia" className='icon'>
@@ -28,7 +28,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
               </a>  
             </div>
             <div className="itemcontainer">
-              <a href="" className='icon'>
+              <a href="https://www.linkedin.com/in/abigail-garcia-174640286/" className='icon'>
               < BsLinkedin className='icon'/>
               </a>  
             </div>
