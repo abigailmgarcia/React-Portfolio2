@@ -1,8 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './works.scss'
 import WorkList from '../workList/worklist';
 
 export default function Works() {
+
+  const [selected, setSelected ] = useState("featured");
 
     const list = [
      {
@@ -28,7 +30,7 @@ export default function Works() {
       <h1>Portfolio</h1>
       <ul>
         {list.map((item) => (
-          < WorkList title={item.title} />
+          < WorkList title={item.title} active = {selected === item.id} setSelected={setSelected} id={item.id}/>
         ))}
       </ul>
       <div className="container">

@@ -1,10 +1,10 @@
 import React from 'react'
-import "./WorkList.scss"
+import "./workList.scss"
 
-export default function WorkList() {
+export default function WorkList({id, title , active, setSelected }) {
   return (
-    <li className='workList'>
-
+    <li className= {active ? "workList active" : "workList"} onClick={() => setSelected(id)}>
+        {title}
     </li>
   )
 }

@@ -1,0 +1,15 @@
+@import "../../global.scss";
+
+.workList{
+    font-size: 15px ;
+    margin-right: 50px;
+    padding: 9px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+
+    &.active{
+        background-color: $mainColor;
+        color: white;
+    }
+}
